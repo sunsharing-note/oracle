@@ -1,0 +1,12 @@
+HS_FDS_CONNECT_INFO = test
+HS_FDS_TRACE_LEVEL = OFF
+HS_FDS_TRACE_FILE_NAME = odbc_test.log
+#HS_FDS_TRACE_LEVEL = 4
+HS_FDS_SHAREABLE_NAME = /usr/lib64/libodbc.so
+#HS_FDS_SUPPORT_STATISCTICS = FALSE
+HS_LANGUAGE = AMERICAN_AMERICA.ZHS16GBK
+HS_FDS_SQLLEN_INTERPRETATION=32
+HS_FDS_TRACE_LEVEL = 4
+set ODBCINI = /etc/odbc.ini
+set ORACLE_HOME=/u01/app/oracle/db/11.2.0.4
+set LD_LIBRARY_PATH=/u01/app/oracle/db/11.2.0.4/lib:/lib:/usr/lib:/usr/local/lib:/u01/app/oracle/db/11.2.0.4/hs/lib:/usr/lib64
